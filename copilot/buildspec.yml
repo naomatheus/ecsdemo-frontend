@@ -16,6 +16,8 @@ phases:
     commands:
       - echo "Run your tests"
       # - make test
+      - ${pwd}
+      - echo "Above is present working dir"
   post_build:
     commands:
       - ls -l
