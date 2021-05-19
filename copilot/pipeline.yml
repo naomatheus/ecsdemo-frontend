@@ -32,5 +32,5 @@ stages:
     -
       name: stage
       requires_approval: true
-      stage_commands: [echo 'Mannually Approved']
+      stage_commands: [echo 'Manually Approved']
 
